@@ -4,7 +4,7 @@
   "description": "Blockchain for LavaCoin cryptocurrency",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watchAll"
   },
   "author": "Stefan Stefanovic",
   "license": "ISC",
