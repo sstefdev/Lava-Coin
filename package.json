@@ -1,0 +1,14 @@
+{
+  "name": "lavacoin",
+  "version": "1.0.0",
+  "description": "Blockchain for LavaCoin cryptocurrency",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stefan Stefanovic",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
