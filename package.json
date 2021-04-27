@@ -6,15 +6,19 @@
   "scripts": {
     "test": "jest --watchAll",
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "dev-peer": "cross-env GENERATE_PEER_PORT='true' nodemon index.js"
   },
   "author": "Stefan Stefanovic",
   "license": "ISC",
   "devDependencies": {
     "body-parser": "^1.19.0",
+    "cross-env": "^7.0.3",
     "express": "^4.17.1",
     "jest": "^26.6.3",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "redis": "^3.1.2",
+    "request": "^2.88.2"
   },
   "dependencies": {
     "hex-to-binary": "^1.0.1"
